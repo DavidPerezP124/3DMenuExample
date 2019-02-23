@@ -13,6 +13,14 @@
 		81B565B2221DD85A00F4E8AE /* wineMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81B565B0221DD85A00F4E8AE /* wineMenu.xcdatamodeld */; };
 		81B565B4221DD85F00F4E8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B565B3221DD85F00F4E8AE /* Assets.xcassets */; };
 		81B565B7221DD85F00F4E8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B565B5221DD85F00F4E8AE /* LaunchScreen.storyboard */; };
+		81B565BF221DD89400F4E8AE /* wineScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 81B565BE221DD89400F4E8AE /* wineScene.scn */; };
+		81B565C1221DE97E00F4E8AE /* blackWood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B565C0221DE97E00F4E8AE /* blackWood.jpg */; };
+		81B565C3221DEB6C00F4E8AE /* blackBoard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B565C2221DEB6C00F4E8AE /* blackBoard.jpg */; };
+		81B565C5221DEEEF00F4E8AE /* Wine_Bottle_Red.obj in Resources */ = {isa = PBXBuildFile; fileRef = 81B565C4221DEEEF00F4E8AE /* Wine_Bottle_Red.obj */; };
+		81B565C7221DEEF900F4E8AE /* Cork_Texture_by_faycop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B565C6221DEEF900F4E8AE /* Cork_Texture_by_faycop.jpg */; };
+		81B565C9221DEF1900F4E8AE /* label_wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B565C8221DEF1900F4E8AE /* label_wine.png */; };
+		81B565CB221E045E00F4E8AE /* woodTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B565CA221E045E00F4E8AE /* woodTexture.jpg */; };
+		81B565CF221E088100F4E8AE /* glassTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B565CE221E088100F4E8AE /* glassTexture.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		81B565B3221DD85F00F4E8AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81B565B6221DD85F00F4E8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81B565B8221DD85F00F4E8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B565BE221DD89400F4E8AE /* wineScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = wineScene.scn; sourceTree = "<group>"; };
+		81B565C0221DE97E00F4E8AE /* blackWood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackWood.jpg; sourceTree = "<group>"; };
+		81B565C2221DEB6C00F4E8AE /* blackBoard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackBoard.jpg; sourceTree = "<group>"; };
+		81B565C4221DEEEF00F4E8AE /* Wine_Bottle_Red.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Wine_Bottle_Red.obj; sourceTree = "<group>"; };
+		81B565C6221DEEF900F4E8AE /* Cork_Texture_by_faycop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cork_Texture_by_faycop.jpg; sourceTree = "<group>"; };
+		81B565C8221DEF1900F4E8AE /* label_wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = label_wine.png; sourceTree = "<group>"; };
+		81B565CA221E045E00F4E8AE /* woodTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodTexture.jpg; sourceTree = "<group>"; };
+		81B565CE221E088100F4E8AE /* glassTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glassTexture.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,14 @@
 				81B565B5221DD85F00F4E8AE /* LaunchScreen.storyboard */,
 				81B565B8221DD85F00F4E8AE /* Info.plist */,
 				81B565B0221DD85A00F4E8AE /* wineMenu.xcdatamodeld */,
+				81B565C0221DE97E00F4E8AE /* blackWood.jpg */,
+				81B565C2221DEB6C00F4E8AE /* blackBoard.jpg */,
+				81B565C6221DEEF900F4E8AE /* Cork_Texture_by_faycop.jpg */,
+				81B565C4221DEEEF00F4E8AE /* Wine_Bottle_Red.obj */,
+				81B565C8221DEF1900F4E8AE /* label_wine.png */,
+				81B565CA221E045E00F4E8AE /* woodTexture.jpg */,
+				81B565CE221E088100F4E8AE /* glassTexture.png */,
+				81B565BE221DD89400F4E8AE /* wineScene.scn */,
 			);
 			path = wineMenu;
 			sourceTree = "<group>";
@@ -125,9 +149,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B565CF221E088100F4E8AE /* glassTexture.png in Resources */,
+				81B565CB221E045E00F4E8AE /* woodTexture.jpg in Resources */,
+				81B565C9221DEF1900F4E8AE /* label_wine.png in Resources */,
+				81B565C5221DEEEF00F4E8AE /* Wine_Bottle_Red.obj in Resources */,
+				81B565C3221DEB6C00F4E8AE /* blackBoard.jpg in Resources */,
+				81B565BF221DD89400F4E8AE /* wineScene.scn in Resources */,
+				81B565C7221DEEF900F4E8AE /* Cork_Texture_by_faycop.jpg in Resources */,
 				81B565B7221DD85F00F4E8AE /* LaunchScreen.storyboard in Resources */,
 				81B565B4221DD85F00F4E8AE /* Assets.xcassets in Resources */,
 				81B565AF221DD85A00F4E8AE /* Main.storyboard in Resources */,
+				81B565C1221DE97E00F4E8AE /* blackWood.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73D7P6XKX3;
 				INFOPLIST_FILE = wineMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +340,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73D7P6XKX3;
 				INFOPLIST_FILE = wineMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
