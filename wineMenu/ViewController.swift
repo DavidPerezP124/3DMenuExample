@@ -53,8 +53,8 @@ class ViewController: UIViewController {
         let labelMaterial = SCNMaterial()
         labelMaterial.diffuse.contents = UIImage(named: "label_wine.png")
         let glassMaterial = SCNMaterial()
-        glassMaterial.diffuse.contents = UIImage(named: "glassTexture.png")
-        glassMaterial.transparent.contents = UIColor(displayP3Red: 0.5, green: 0.5, blue: 0.5, alpha: 0.4)
+        glassMaterial.diffuse.contents = UIImage(named: "glassTexture.jpg")
+        glassMaterial.transparent.contents = UIColor(displayP3Red:50/255, green: 182/255, blue: 35/255, alpha: 0.7)
         glassMaterial.isDoubleSided = true
         
         guard let path = Bundle.main.path(forResource: "Wine_Bottle_Red", ofType: ".obj") else {return}
@@ -80,19 +80,17 @@ class ViewController: UIViewController {
         let z = Double((spot?.position.z)!)
         
         let spotAction = SCNAction.move(to: SCNVector3(
-            x + 0.6,
-            y + 0.6,
-            z + 0.6
-        ), duration: 0.5)
+            x + Double.random(in: 0.02...0.08),
+            y + Double.random(in: 0.02...0.08),
+            z
+        ), duration: 0.15)
         let reverse = SCNAction.move(to: SCNVector3(
             x,
             y,
             z
-            ), duration: 1)
-        let printSpot = SCNAction.run { (_) in
-            print(spot?.position)
-        }
-        let sequence = SCNAction.sequence([printSpot, spotAction, printSpot, reverse, printSpot])
+            ), duration: 0.15)
+       
+        let sequence = SCNAction.sequence([spotAction,reverse])
         let sqncRepeat = SCNAction.repeatForever(sequence)
         
         spot?.runAction(sqncRepeat)

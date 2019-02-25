@@ -20,7 +20,7 @@
 		81B565C7221DEEF900F4E8AE /* Cork_Texture_by_faycop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B565C6221DEEF900F4E8AE /* Cork_Texture_by_faycop.jpg */; };
 		81B565C9221DEF1900F4E8AE /* label_wine.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B565C8221DEF1900F4E8AE /* label_wine.png */; };
 		81B565CB221E045E00F4E8AE /* woodTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81B565CA221E045E00F4E8AE /* woodTexture.jpg */; };
-		81B565CF221E088100F4E8AE /* glassTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B565CE221E088100F4E8AE /* glassTexture.png */; };
+		81D53A1D2220E9CE00590EA7 /* glassTexture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81D53A1C2220E9CD00590EA7 /* glassTexture.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		81B565C6221DEEF900F4E8AE /* Cork_Texture_by_faycop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cork_Texture_by_faycop.jpg; sourceTree = "<group>"; };
 		81B565C8221DEF1900F4E8AE /* label_wine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = label_wine.png; sourceTree = "<group>"; };
 		81B565CA221E045E00F4E8AE /* woodTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woodTexture.jpg; sourceTree = "<group>"; };
-		81B565CE221E088100F4E8AE /* glassTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = glassTexture.png; sourceTree = "<group>"; };
+		81D53A1C2220E9CD00590EA7 /* glassTexture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glassTexture.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +85,7 @@
 				81B565C4221DEEEF00F4E8AE /* Wine_Bottle_Red.obj */,
 				81B565C8221DEF1900F4E8AE /* label_wine.png */,
 				81B565CA221E045E00F4E8AE /* woodTexture.jpg */,
-				81B565CE221E088100F4E8AE /* glassTexture.png */,
+				81D53A1C2220E9CD00590EA7 /* glassTexture.jpg */,
 				81B565BE221DD89400F4E8AE /* wineScene.scn */,
 			);
 			path = wineMenu;
@@ -149,7 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B565CF221E088100F4E8AE /* glassTexture.png in Resources */,
+				81D53A1D2220E9CE00590EA7 /* glassTexture.jpg in Resources */,
 				81B565CB221E045E00F4E8AE /* woodTexture.jpg in Resources */,
 				81B565C9221DEF1900F4E8AE /* label_wine.png in Resources */,
 				81B565C5221DEEEF00F4E8AE /* Wine_Bottle_Red.obj in Resources */,
